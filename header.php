@@ -65,7 +65,7 @@
                                         <a class="nav-link" href="#">News</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact</a>
+                                        <a class="nav-link" href="post_form.php">dodaj Wpis</a>
                                     </li>
                                 </ul>
                             </div>

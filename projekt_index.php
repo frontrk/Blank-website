@@ -289,6 +289,14 @@ $b = 10;
 
 
 
+$zmienna = 4;
+for ($i=0; $i <= $zmienna; $i++) {
+    
+    for ($j=0; $j <= $i; $j++) {
+        echo "*";
+    }
+    echo "<br>";
+}
 
 
 
