@@ -1,3 +1,6 @@
-<?php
-    echo "Witam";
+<?php 
+require "header.php";
+include "content.php";
+require "footer.php";
+
 ?>
