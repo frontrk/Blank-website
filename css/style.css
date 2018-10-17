@@ -36,15 +36,17 @@ section.one {
     background-size: cover;
     padding-top: 220px;
     padding-left: 200px;
-    height: 794px;
+    height: 900px;
 }
 
 section.one h3 {
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 20px;
     margin: 0;
     line-height: 70px;
     color: #fa6a2e;
+    text-shadow: 1px 1px #ffffff;
+    
 }
 
 section.one h4 {
@@ -52,12 +54,16 @@ section.one h4 {
     margin: 0;
     line-height: 70px;
     color: white;
+        text-shadow: 1px 1px #000000;
+        font-weight: bold;
 }
 
 section.one p {
-    color: #bdc2c7;
+    color: #ffffff;
     margin-bottom: 50px;
     margin-top: 20px;
+    text-shadow: 1px 1px #000000;
+    font-weight: bold;
 }
 
 .button_a {
@@ -82,41 +88,7 @@ section.one p {
     outline: 0;
 }
 
-#preloader {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    top: 50%;
-    left: 50%;
-    display: block;
-}
 
-#preloader_1,
-#preloader_2 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: cadetblue;
-    opacity: 0.7;
-    top: 0;
-    left: 0;
-    animation: preloader_animation 2.0s infinite ease-in-out;
-}
-
-#preloader_2 {
-    animation-delay: -1.0s;
-}
-
-@keyframes preloader_animation {
-    0%,
-    100% {
-        transform: scale(0.0)
-    }
-    50% {
-        transform: scale(1.0)
-    }
-}
 
 /* ---- particles.js container ---- */
 
@@ -163,7 +135,7 @@ section.two {
     position: relative;
     height: 100%;
     width: 100%;
-    background: url('http://www.themenesia.com/themeforest/linea-new/images/misc/1.jpg');
+    background: url('../img/background4.jpg');
     background-size: cover;
     overflow: hidden;
 }
@@ -376,53 +348,6 @@ li.tabs-nav-item.active_tab::after {
     color: #bdc2c7;
 }
 
-/* ----section tabs------ */
-
-/* ----section tabs------ */
-
-/* -----section owlquot----- */
-
-/* -----section owlquot----- */
-
-/* #owlquot {
-    background-color: rgb(248, 248, 248);
-    padding: 80px 0;
-}
-
-.item {
-    background: white;
-    margin: 120px 0px;
-    border-radius: 10px;
-}
-
-.img_owl {
-    width: 60px !important;
-    margin: 0 auto !important;
-}
-
-.item>div>p {
-    color: #86888c;
-    padding: 10px;
-}
-
-.cent {
-    text-align: center;
-    padding: 30px;
-    color: #fa6a2e;
-}
-
-.owl_quote>div>p {
-    font-size: 15px;
-    
-}
-
-.owl-stage>.center {
-    margin: 21px 40px 20px 0px !important;
-    top: -1px;
-    transform: scale(1.08);
-    transition: all .4s;
-    background: #404040;
-} */
 
 
 /*zdjecie okragle*/
@@ -528,7 +453,7 @@ section#owlquot >
     left: 0;
     right: 0;
     z-index: -1;
-    background-image: url('http://www.themenesia.com/themeforest/linea-new/images/background/3.jpg');
+    background-image: url('../img/background5.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -564,7 +489,7 @@ section#owlquot >
     height: 340px;
     width: 254px;
     background-size: cover !important;
-    background: url("http://www.themenesia.com/themeforest/linea-new/images/team/1.jpg");
+    background: url("../img/man5.jpg");
     overflow: hidden;
 }
 
@@ -600,7 +525,7 @@ section#owlquot >
     height: 340px;
     width: 254px;
     background-size: cover !important;
-    background: url("http://www.themenesia.com/themeforest/linea-new/images/team/2.jpg");
+    background: url("../img/man2.jpg");
     overflow: hidden;
 }
 
@@ -620,7 +545,7 @@ section#owlquot >
     height: 340px;
     width: 254px;
     background-size: cover !important;
-    background: url("http://www.themenesia.com/themeforest/linea-new/images/team/3.jpg");
+    background: url("../img/woman.jpg");
     overflow: hidden;
 }
 
@@ -640,7 +565,7 @@ section#owlquot >
     height: 340px;
     width: 254px;
     background-size: cover !important;
-    background: url("http://www.themenesia.com/themeforest/linea-new/images/team/4.jpg");
+    background: url("../img/man4.jpg");
     overflow: hidden;
 }
 

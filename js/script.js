@@ -1,13 +1,4 @@
-var czas_opoznienia;
 
-function delay() {
-	czas_opoznienia = setTimeout(showPage, 2000);
-
-
-	// dodano automatyczna wysokosc sekcji 1
-	window_size = $(window).height();
-	$('section.one').css("height", window_size);
-}
 
 function showPage() {
 	document.getElementById('preloader').style.display = "none";
