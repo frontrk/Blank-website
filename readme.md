@@ -1,1 +1,2 @@
-My project + learning SmartGit
+"Blank" - Simple and beautiful design
+2018
